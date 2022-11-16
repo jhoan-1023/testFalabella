@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Loguearse" skipped="3" tests="3" time="0.21" timestamp="2022-11-15 08:54:51"><testcase name="Iniciar Sesion"><skipped/></testcase><testcase name="Iniciar Sesion con correo no registrado"><skipped/></testcase><testcase name="Iniciar Sesion con contrasena invalida"><skipped/></testcase></testsuite>

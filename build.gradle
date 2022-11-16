@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group 'com.certificacion.somoglobal'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+
+    implementation 'net.serenity-bdd:serenity-core:1.9.45'
+    implementation 'net.serenity-bdd:serenity-junit:1.9.45'
+    implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
+    implementation 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.45'
+    implementation 'org.assertj:assertj-core:1.7.0'
+    implementation 'org.slf4j:slf4j-simple:1.7.30'
+}
+
+test {
+    systemProperty "file.encoding", "UTF-8"
+    systemProperty "feature.file.encoding", "UTF-8"
+}
