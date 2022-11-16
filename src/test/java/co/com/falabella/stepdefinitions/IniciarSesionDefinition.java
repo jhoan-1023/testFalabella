@@ -37,7 +37,7 @@ public class IniciarSesionDefinition {
 
     @Then("^el usuario no se podra loguear$")
     public void elUsuarioNoSePodraLoguear() {
-        theActorInTheSpotlight().should(seeThat(InicioSesionFallido.ConEmailIncorrecto()));;
+        theActorInTheSpotlight().should(seeThat(InicioSesionFallido.ConEmailIncorrecto()));
     }
 
 }
