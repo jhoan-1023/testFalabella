@@ -1,0 +1,236 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script><!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle"></span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="2a974fa2b1aaca58a49c8eadabee2c6d803692fda73393aa30fe0381652dc689.html">Comprar Producto</a></span>
+                > <span class="truncate-60"><a
+                    href="c9d248fc81f52709f98214455c10d0239d31a867edde3b621a2441d89a320d46.html">Comprar Producto </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 16-11-2022 17:31</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Comprar Producto </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Yo como usuario de Falabella<br />
+Quiero ver un producto disponible<br />
+Para poderlo comprar
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Comprar Producto
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="5aa848c91aad89c507fc7a805e430d4e5ca8ed58fc3c2cd3a49f04ff3edd90b3.png" title=" Usuario Falabella opens the https://www.falabella.com.co/" width="1920"/>
+                <img src="5aa848c91aad89c507fc7a805e430d4e5ca8ed58fc3c2cd3a49f04ff3edd90b3.png" title=" Given que el usuario inicia sesion en la pagina de falabella" width="1920"/>
+                <img src="6628ce437a28b08e0c8576751a77bad00cc22844b3077a6ce8ce31b2e3b83748.png" title=" When el usuario selecciona un producto disponible
+| producto | funda iphone 13 pro |
+| correo | jhoan-1023@hotmail.com |" width="1920"/>
+                <img src="6628ce437a28b08e0c8576751a77bad00cc22844b3077a6ce8ce31b2e3b83748.png" title=" Usuario falabella seleccionar producto" width="1920"/>
+                <img src="6628ce437a28b08e0c8576751a77bad00cc22844b3077a6ce8ce31b2e3b83748.png" title=" Usuario Falabella enters 'funda iphone 13 pro' then hits [ENTER] into buscar producto" width="1920"/>
+                <img src="2aa4f9bbb9775e6ad720c22ffd1f295a2841e99347f4c8b333c3058da8490b4d.png" title=" Usuario Falabella enters 'funda iphone 13 pro' then hits [ENTER] into buscar producto (completed)" width="1920"/>
+                <img src="2aa4f9bbb9775e6ad720c22ffd1f295a2841e99347f4c8b333c3058da8490b4d.png" title=" Usuario Falabella clicks on seleccionar producto" width="1920"/>
+                <img src="8e32e2fc3b5a713b6dbc35d53f4122914fde0ee8d9f43df10b006924cab2e8aa.png" title=" Usuario Falabella clicks on seleccionar producto (completed)" width="1920"/>
+                <img src="8e32e2fc3b5a713b6dbc35d53f4122914fde0ee8d9f43df10b006924cab2e8aa.png" title=" Usuario Falabella clicks on boton agregar a la bolsa" width="1920"/>
+                <img src="9719f233e819b6c8b9663b4b098510db4f6f38b7c10b826cfb396c9b315795d0.png" title=" Usuario Falabella clicks on boton agregar a la bolsa (completed)" width="1920"/>
+                <img src="9719f233e819b6c8b9663b4b098510db4f6f38b7c10b826cfb396c9b315795d0.png" title=" Usuario Falabella clicks on boton agregar a la bolsa" width="1920"/>
+                <img src="9f04ae9ce7bc5bbbc418c41b38c533898af5eb427f98213c34a537edb749b956.png" title=" Usuario Falabella clicks on boton agregar a la bolsa (completed)" width="1920"/>
+                <img src="9f04ae9ce7bc5bbbc418c41b38c533898af5eb427f98213c34a537edb749b956.png" title=" Usuario Falabella clicks on boton ir a comprar" width="1920"/>
+                <img src="f031a86cb63711b1d2601ff71415f655e0b440d072c5051e147cb4c99f5e8fbe.png" title=" Usuario Falabella clicks on boton ir a comprar (completed)" width="1920"/>
+                <img src="f031a86cb63711b1d2601ff71415f655e0b440d072c5051e147cb4c99f5e8fbe.png" title=" Usuario Falabella enters 'jhoan-1023@hotmail.com' into ingresar correo" width="1920"/>
+                <img src="c3d971e59430fe85e579b596c0276a7542e4cf0b4b97f0b8f9cf3f304d9c2682.png" title=" Usuario Falabella enters 'jhoan-1023@hotmail.com' into ingresar correo (completed)" width="1920"/>
+                <img src="c3d971e59430fe85e579b596c0276a7542e4cf0b4b97f0b8f9cf3f304d9c2682.png" title=" Usuario Falabella clicks on boton continuar" width="1920"/>
+                <img src="32f076407be69d242beeb68c851a2a1cfdc0eb8dd1c7be5d5cfb6e67faa2c157.png" title=" Usuario Falabella clicks on boton continuar (completed)" width="1920"/>
+                <img src="32f076407be69d242beeb68c851a2a1cfdc0eb8dd1c7be5d5cfb6e67faa2c157.png" title=" Usuario Falabella clicks on seleccionar departamento" width="1920"/>
+                <img src="c814508cc67355ae567f41aadec10ee5e7b843e83ba7ba865cb7401bed3e0726.png" title=" Usuario Falabella clicks on seleccionar departamento (completed)" width="1920"/>
+                <img src="c814508cc67355ae567f41aadec10ee5e7b843e83ba7ba865cb7401bed3e0726.png" title=" Usuario Falabella clicks on antioquia" width="1920"/>
+                <img src="f0f55be90ffcf2902dd108b0c2c0c682f7a498bc814e327cada54f6080c787e1.png" title=" Usuario Falabella clicks on antioquia (completed)" width="1920"/>
+                <img src="f0f55be90ffcf2902dd108b0c2c0c682f7a498bc814e327cada54f6080c787e1.png" title=" Usuario Falabella clicks on seleccionar ciudad" width="1920"/>
+                <img src="f4ed638af97b0a2bb3c37aaca512e2d0e8aa85ca8332d6cf44aea3864bd6aafe.png" title=" Usuario Falabella clicks on seleccionar ciudad (completed)" width="1920"/>
+                <img src="f4ed638af97b0a2bb3c37aaca512e2d0e8aa85ca8332d6cf44aea3864bd6aafe.png" title=" Usuario Falabella clicks on medellin" width="1920"/>
+                <img src="6a0aaa334c7017324c91a8b0fe5bf2a67dc1f9ced959567caadb10c86b1405e0.png" title=" Usuario falabella seleccionar producto" width="1920"/>
+                <img src="6a0aaa334c7017324c91a8b0fe5bf2a67dc1f9ced959567caadb10c86b1405e0.png" title=" Usuario Falabella clicks on medellin (completed)" width="1920"/>
+                <img src="6a0aaa334c7017324c91a8b0fe5bf2a67dc1f9ced959567caadb10c86b1405e0.png" title=" When el usuario selecciona un producto disponible
+| producto | funda iphone 13 pro |
+| correo | jhoan-1023@hotmail.com | (completed)" width="1920"/>
+                <img src="6a0aaa334c7017324c91a8b0fe5bf2a67dc1f9ced959567caadb10c86b1405e0.png" title=" Then el usuario podra comprar el producto: <span class='success-color'>SUCCESS</span>" width="1920"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.64</span>
+</div>
+</body>
+</html>
