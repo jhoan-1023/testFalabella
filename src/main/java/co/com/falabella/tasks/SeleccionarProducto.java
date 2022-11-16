@@ -23,7 +23,7 @@ public class SeleccionarProducto implements Task {
     public <T extends Actor> void performAs(T actor) {
 
         try {
-            Thread.sleep(5000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -45,8 +45,7 @@ public class SeleccionarProducto implements Task {
                 Enter.theValue(producto.get("direccion")).into(INGRESAR_DIRECCION),
                 Enter.theValue(producto.get("apartamento")).into(INGRESAR_APARTAMENTO),
                 Click.on(BTN_INGRESAR_DIRECCION),
-                Click.on(CONTINUAR),
-                Click.on(SELECCIONAR_METODOPAGO));
+                Click.on(CONTINUAR));
 
     }
 

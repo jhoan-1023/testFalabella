@@ -58,12 +58,6 @@ public class ComprarProduct {
     public static final Target CONTINUAR = Target.the("continuar")
             .locatedBy("//button[@class=\"fbra_button fbra_checkoutComponentDeliveryActions__continueToSecurePaymentButton fbra_test_checkoutComponentDeliveryActions__continueToSecurePaymentButton\"]");
 
-    public static final Target SELECCIONAR_METODOPAGO = Target.the("seleccionar metodo de pago")
-            .locatedBy("//span[@class=\"smallScreen otherPaymentOptions  anchorTitle fpay-wallet-leftcont \"]");
-
-
-
-
-
-
+    public static final Target METODO_PAGO = Target.the("metodo pago")
+            .locatedBy("/html/body/div[3]/div[1]/div[1]/h2");
 }

@@ -25,6 +25,6 @@ public class RestablecerContrasenaDefinition {
 
     @Then("^el usuario recibira un correo con las indicaciones para cambiarla$")
     public void elUsuarioRecibiraUnCorreoConLasIndicacionesParaCambiarla() {
-        theActorInTheSpotlight().should(seeThat(CambiarClave.withEmail()));;
+        theActorInTheSpotlight().should(seeThat(CambiarClave.withEmail()));
     }
 }
