@@ -19,6 +19,12 @@ public class SeleccionarProducto implements Task {
         this.producto = producto;
     }
 
+    /***
+     * Utilice este método para que el actor pueda ejecutar todas las acciones
+     * @param actor - Encargado de ejecutar las acciones
+     * @param <T>
+     */
+
     @Override
     public <T extends Actor> void performAs(T actor) {
 

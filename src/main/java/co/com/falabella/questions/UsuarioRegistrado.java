@@ -8,6 +8,12 @@ import static co.com.falabella.userinterfaces.Registrar.*;
 
 public class UsuarioRegistrado implements Question<String> {
 
+    /***
+     * Utilice este método para validar el Assert o resultado esperado del feature registrar.feature
+     * @param actor - El actor es el encargado de ejecutar las acciones
+     * @return - Validar el campo del resultado esperado
+     */
+
     @Override
     public String answeredBy(Actor actor) {
         return String.valueOf(Text.of(USER_REGISTRADO));

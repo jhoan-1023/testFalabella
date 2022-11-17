@@ -8,9 +8,9 @@ import static co.com.falabella.userinterfaces.CambiarContrasena.*;
 public class CambiarClave implements Question<String> {
 
     /***
-     *
-     * @param actor
-     * @return
+     * Utilice este método para validar el Assert o resultado esperado del feature restablecerContraseña.feature
+     * @param actor - El actor es el encargado de ejecutar las acciones
+     * @return - Validar el campo del resultado esperado
      */
     @Override
     public String answeredBy(Actor actor) {
