@@ -19,6 +19,7 @@ public class BuscarCategoriaDefinition {
 
     @When("^el usuario busca una categoria$")
     public void elUsuarioBuscaUnaCategoria() {
+
         theActorInTheSpotlight().attemptsTo(BuscarCategoria.conCategoria());
     }
 
