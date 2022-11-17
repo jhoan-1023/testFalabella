@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'com.certificacion.somoglobal'
+group 'co.com.falabella'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -18,6 +18,9 @@ dependencies {
     implementation 'net.serenity-bdd:serenity-screenplay-webdriver:1.9.45'
     implementation 'org.assertj:assertj-core:1.7.0'
     implementation 'org.slf4j:slf4j-simple:1.7.30'
+
+    implementation group: 'io.qameta.allure', name: 'allure-testng', version: '2.20.1'
+
 }
 
 test {
